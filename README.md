@@ -58,7 +58,6 @@ Po uruchomieniu programu:
 
 ```Bash
 USER@DESKTOP-ABC123:~/projekt$ ./p1
-
 podaj pid sensora A: 12109
 podaj pid sensora B: 12134
 podaj pid sensora C: 12165
@@ -75,7 +74,7 @@ Po uruchomieniu programu wyświetla się PID programu który trzeba przepisać d
     <b>nie trzeba podawać PID aby program Main odczytywał wartość</b>
 
 ```Bash
-natano91@DESKTOP-PB5GPAS:~/projekt$ ./p2
+USER@DESKTOP-ABC123:~/projekt$ ./p2
 -----------Sensor A----------PID:        pid: 12109
 podaj wartość: 10
 Wartość zapisana:

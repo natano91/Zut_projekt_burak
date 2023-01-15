@@ -80,6 +80,6 @@ podaj wartość: 10
 Wartość zapisana:
 ```
 
-    Program działa w pętli i przy każdej zmianie wartości pyta się o ponowne podanie wartości.
+Program działa w pętli i przy każdej zmianie wartości pyta się o ponowne podanie wartości.
     
 </details>

@@ -49,4 +49,21 @@ graph TD;
     P1(Main)-->P4(Sensor C);
 ```
 
+Po uruchomieniu programu:
++ Wpisujemy PID czujników aby uzyskać status ich aktywności
++ następnie nasz program odświeża co 1 sekundę parametry z czujników
+<\br>
+
+```Bash
+USER@DESKTOP-ABC123:~/projekt$ ./p1
+
+podaj pid sensora A: 12109
+podaj pid sensora B: 12134
+podaj pid sensora C: 12165
+----status----
+sensorA: Status: 1       val: 0
+sensorB: Status: 1       val: 0
+sensorC: Status: 1       val: 0
+```
+
 

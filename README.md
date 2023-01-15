@@ -1,4 +1,4 @@
-# Zut_projekt_burak
+# czujniki i program odczytujący
 Projekt na ZUT (Shm/Semafore)
 
 # Plik main:
@@ -79,5 +79,7 @@ USER@DESKTOP-ABC123:~/projekt$ ./p2
 podaj wartość: 10
 Wartość zapisana:
 ```
+
+    Program działa w pętli i przy każdej zmianie wartości pyta się o ponowne podanie wartości.
     
 </details>

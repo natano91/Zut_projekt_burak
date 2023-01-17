@@ -36,6 +36,8 @@ int main(int argc, char *argv[])
         printf("-----------Sensor A----------PID:\t pid: %d\n",pid);
         printf("podaj wartość: ");
         scanf("%d",&val);
+        if(val>=120)val=120;
+        if(val<=0)val=0;
         sem_wait(sem_des);
         shared[100]=val;
         sem_post(sem_des);
